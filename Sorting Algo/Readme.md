@@ -1,21 +1,23 @@
-# Sorting Alogorithms
----
+# Sorting Algorithms
+
 ### Selection Sort
-Selection sort is comparision-based sort. It sort by selecting the smallest or largest element and swap it with the fisrt unsorted element  
+Selection sort is comparison-based sort. It sort by selecting the smallest or largest element and swap it with the first unsorted element  
+    
     [ 64 25 22 11 ] i is the first unsorted element j start as i +1  
        i  j  
     [ 64 25 22 11 ]  
        i     j  
-    [ 64 25 22 11 ] here the 11 is the smallest element so 64 and 11 is swaped position  
+    [ 64 25 22 11 ] here the 11 is the smaller element so 64 and 11 is swapped position  
        i        j  
-    [ 11 25 22 64 ] here also 22 is the smallestthen first unsorted element 25 so swap  
+    [ 11 25 22 64 ] here also 22 is the smaller then first unsorted element 25 so swap  
           i  j  
     [ 11 22 25 64 ]  
  - Time Complexity - O($n^2$)  
  - Space Complexity - O(1)  
----
+
 ### Bubble sort
-Bubble sort is a simple sorting algorithm. It sort by repeatedly swaping the adjacent element if they are unordered  
+Bubble sort is a simple sorting algorithm. It sort by repeatedly swapping the adjacent element if they are unordered
+
     [64 25 22 11]  
      |  |        64 > 25 so swap  
      i j+1  
