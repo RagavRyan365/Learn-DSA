@@ -43,9 +43,13 @@ Bubble sort is a simple sorting algorithm. It sort by repeatedly swapping the ad
  - Time Complexity - O($n^2$)  
  - Space Complexity - O(1)  
 
-###Insertion Sorting
-Insertion sort is a simple sorting algorithm. It sort the list by inserting  the smallest or largest element in its sorted position, and  moving other elementback by one step to create space for the elementto insert in the list
+### Insertion Sorting
+Insertion sort is a simple sorting algorithm. It sort the list by inserting  the smallest or largest element in its sorted position, and  moving other element back by one step to create space for the element to insert in the list
 
 ![Insertion Algo Explain Img](https://media.geeksforgeeks.org/wp-content/uploads/20240802210251/Insertion-sorting.png)
 
-
+ - Time Complexity  
+    - O(n) - if the list already sorted
+    - $\Omega$($n^2$)
+    - $\Theta$($n^2$)
+- Space Complexity - O(1)
