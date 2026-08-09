@@ -1,14 +1,14 @@
 class InsertionSort{
     static void insertionSort(int[] arr){
-        int n = arr.length;
-        for(int i=0;i<n;i++){
-            int key = arr[i];
-            int j = i - 1;
-            while(j>=0 && arr[j] > key){
-                arr[j+1] = arr[j];
-                j--;
+        int n = arr.length;//list size
+        for(int i=0;i<n;i++){//loop runn for n time i start with the second element
+            int key = arr[i];// key store the element which is going to change the position to it sorted position
+            int j = i - 1;//previous element of i
+            while(j>=0 && arr[j] > key){//check two things j is not going less than zero and key value is smaller than current j element
+                arr[j+1] = arr[j]; // move the element by one step to create space for the key
+                j--;//decrease by one till the -1 or j elemt smaller than key
             }
-            arr[j+1] = key;
+            arr[j+1] = key;// after finishing the loop the key is placed in the sorted position
         }
     }
     //Print Array
