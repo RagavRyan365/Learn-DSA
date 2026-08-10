@@ -49,15 +49,28 @@ Insertion sort is a simple sorting algorithm. It sort the list by inserting  the
 ![Insertion Algo Explain Img](https://media.geeksforgeeks.org/wp-content/uploads/20240802210251/Insertion-sorting.png)
 
  - Time Complexity  
-    - O(n) - if the list already sorted
-    - $\Omega$($n^2$)
-    - $\Theta$($n^2$)
-- Space Complexity - O(1)
+    - $\Omega$(n) - if the list already sorted - Best Case
+    - O($n^2$) - Worst Case
+    - $\Theta$($n^2$) - Average Case
+ - Space Complexity - O(1)
 
 ### Merge sorting
-Merge sort works by divide and concure method, the whole array is separated into small block the small blockes are sorted first then it merge to give the final sorted list.
+Merge sort works by divide and conqure method, the whole array is separated into small block the small blockes are sorted first then it merge to give the final sorted list.
 
 <img src="https://www.programiz.com/sites/tutorial2program/files/merge-sort-example_0.png" width="500" height="500" alt="Merge Sort Algo Img">
 
  - Time Complexity - O(nlogn) --> log n for dividing and n for merging
  - Space Complexity - 0(n)
+
+### Quick sorting
+Quick is also sorting algoritham based on divide and conqure method. first a pivot is choice from the array it may be center element or starting or ending element than the remaining element are compared with the pivot element the elements that are smaller than pivot are set in front of the pivot and elements that are larger than pivot are move to the back of the pivot. This process repeatedly recursively through all the sub array.
+
+![Quick Sort Algo Img](https://miro.medium.com/v2/resize:fit:640/format:webp/1*Ws_Vgq53aHVqdVyStmpHTw.jpeg)
+
+ - Time Complexity  
+    - $\Omega$(nlogn) - Best Case
+    - O($n^2$) - Worst Case
+    - $\Theta$(nlogn) - Average Case
+ - Space Complexity
+   - $\Omega$(nlogn) - Best Case
+   - O(n) - Worst Case
