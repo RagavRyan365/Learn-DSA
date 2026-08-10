@@ -1,8 +1,8 @@
 # Sorting Algorithms
 
 ### Selection Sort
-Selection sort is comparison-based sort. It sort by selecting the smallest or largest element and swap it with the first unsorted element  
-    
+Selection sort is comparison-based sort. It sort by selecting the smallest or largest element and swap it with the first unsorted element.
+
     [ 64 25 22 11 ] i is the first unsorted element j start as i +1  
        i  j  
     [ 64 25 22 11 ]  
@@ -16,7 +16,7 @@ Selection sort is comparison-based sort. It sort by selecting the smallest or la
  - Space Complexity - O(1)  
 
 ### Bubble sort
-Bubble sort is a simple sorting algorithm. It sort by repeatedly swapping the adjacent element if they are unordered
+Bubble sort is a simple sorting algorithm. It sort by repeatedly swapping the adjacent element if they are unordered.
 
     [64 25 22 11]  
      |  |        64 > 25 so swap  
@@ -44,7 +44,7 @@ Bubble sort is a simple sorting algorithm. It sort by repeatedly swapping the ad
  - Space Complexity - O(1)  
 
 ### Insertion Sorting
-Insertion sort is a simple sorting algorithm. It sort the list by inserting  the smallest or largest element in its sorted position, and  moving other element back by one step to create space for the element to insert in the list
+Insertion sort is a simple sorting algorithm. It sort the list by inserting  the smallest or largest element in its sorted position, and  moving other element back by one step to create space for the element to insert in the list.
 
 ![Insertion Algo Explain Img](https://media.geeksforgeeks.org/wp-content/uploads/20240802210251/Insertion-sorting.png)
 
@@ -53,3 +53,11 @@ Insertion sort is a simple sorting algorithm. It sort the list by inserting  the
     - $\Omega$($n^2$)
     - $\Theta$($n^2$)
 - Space Complexity - O(1)
+
+### Merge sorting
+Merge sort works by divide and concure method, the whole array is separated into small block the small blockes are sorted first then it merge to give the final sorted list.
+
+![Merge sort algo Img](https://media.geeksforgeeks.org/wp-content/uploads/20250923102849709166/arr_.webp)
+
+ - Time Complexity - O(nlogn) --> log n for dividing and n for merging
+ - Space Complexity - 0(n)
