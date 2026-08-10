@@ -57,7 +57,7 @@ Insertion sort is a simple sorting algorithm. It sort the list by inserting  the
 ### Merge sorting
 Merge sort works by divide and concure method, the whole array is separated into small block the small blockes are sorted first then it merge to give the final sorted list.
 
-![Merge sort algo Img](https://www.w3schools.com/dsa/img_mergesort_long.png)
+<img src="https://www.programiz.com/sites/tutorial2program/files/merge-sort-example_0.png" width="500" height="500" alt="Merge Sort Algo Img">
 
  - Time Complexity - O(nlogn) --> log n for dividing and n for merging
  - Space Complexity - 0(n)
