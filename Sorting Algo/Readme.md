@@ -81,16 +81,16 @@ Building or defining the couting array, the size of the counting  array is large
 step 2:
 Wrinting the count of each element in the input array on couting Array
 
-  input = [1,5,3,5]
-  couting = [0,1,0,1,0,2] -- size is 5 the largest element in input Array as in step 1
-      index  0 1 2 3 4 5
+      input = [1,5,3,5]
+      couting = [0,1,0,1,0,2] -- size is 5 the largest element in input Array as in step 1
+          index  0 1 2 3 4 5
 
 step 3:
 Taking cummuletive or prefix sum for the counting array
 
-  counting = [0,1,0,1,0,2]
-  after taking cummuletive or prefix sum
-  counting = [0,1,1,2,2,3]
+      counting = [0,1,0,1,0,2]
+      after taking cummuletive or prefix sum
+      counting = [0,1,1,2,2,3]
 
 step 4:
 Building the Sorted array, now after step 3the counting array has the index of every element for the sorted array. Start itrating the input array from the back and write the value using the counting array and return the sorted array... for further understading look the counting sort code
