@@ -1,5 +1,6 @@
 # Learning-DSA
 ## My learning code in java for DSA
+ - Data stuctures
  - Sorting Algorithms
  - Searcing Algorithms
  - Patterns
