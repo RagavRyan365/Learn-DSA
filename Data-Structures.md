@@ -18,6 +18,7 @@
 
     Methods:
       .length - return the length of the Array
+      .clone - return the array as a new array you can store it in another array
       others:
         Arrays.sort(<Array>) - sort the array;
         Arrays.toString(<Array>) - to convert it into String mostly used for printing the array
@@ -27,3 +28,17 @@
         Arrays.copyOf(<Array>,<Size>) - to copy or resizing the array
 
 ## String
+
+    Declaration Syntex:
+      String <StringName> = "<Value>";
+
+    Methods:
+      .length() - return the length of the string
+      <String1>.equals(<String2>) - return boolean value checking if the String1 and String2 values are equal
+      .toCharArray() - return a character array of the String
+      .charAt(<Index>) - return the specific character in the Index like Array
+      .substring(<startIndex>,<endIndex>) - return the substring
+      .spilt("<char>") - split the String based on the char inside the function
+      .contains("<substring or char>") - check if the substring or char in the String
+      .indexOf("<char>") - return the first occurrence of the char
+      .lastIndexOf("<char>") - return the last occurrence of the char
