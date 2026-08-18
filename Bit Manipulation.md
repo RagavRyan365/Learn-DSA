@@ -94,7 +94,7 @@ Addition:
       x = x ^ y;
       y = carry;
     }
-    x -> has the result for 2 + 3;
+    x -> has the result for 2 + 3
 
 Subtraction;
 
@@ -106,4 +106,19 @@ Subtraction;
       x = x ^ y;
       y = borrow << 1;
     }
-    x -> has the result for 2 - 3;
+    x -> has the result for 2 - 3
+
+Multiplication:
+
+    java:
+    //Multiply 4 * 5
+    int x=4,y=5;
+    int ans =0; count =0;
+    while(y > 0){
+      if(y % 2 == 1){
+        ans += x << count;
+      }
+      count++;
+      y/=2;
+    }
+    ans -> has the result for 4 * 5
