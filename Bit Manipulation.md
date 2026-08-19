@@ -122,3 +122,20 @@ Multiplication:
       y/=2;
     }
     ans -> has the result for 4 * 5
+Division:
+
+    java:
+    //Divide 30/7
+    int x = 30,y = 7;
+    int sign  = (x> 0)^(y < 0) ? -1:1;
+    x = Math.abs(x);
+    y = Math.abs(y);
+    int ans = 0;
+    for(int i=31;i>=0;--i){
+        if((y<<i) <= x){
+            x -= (y<<i);
+            ans |= (1L <<i);
+        }
+    }
+    the final answer for 30/7 = 4 in the sign * ans
+    
