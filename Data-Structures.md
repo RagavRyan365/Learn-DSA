@@ -5,7 +5,7 @@
  - HashMap
  - Stack
  - Queue
- -Tree
+ - Tree
 
 ## Arrays
 Declaration Syntex:
@@ -20,6 +20,10 @@ Nested Array:
 Mutable array:
 
       List<DataType> <ArrayName> = new ArrayList<>()
+      Methods for ArrayList:
+      .size()
+      .add(<value>) - append the element into the array list
+      .get(<Index>) - get the element from the Array list using the element's index
 
 Accessing Syntex:
 
@@ -199,4 +203,3 @@ Declaration Syntex:
         this.val = val;
       }
     }
-
