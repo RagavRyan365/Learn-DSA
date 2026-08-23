@@ -10,25 +10,33 @@
 ## Arrays
 Declaration Syntex:
 
-      <DataType>[] <ArrayName> = {<value2>,<value1>};//add value inside the {} for predefined Array
-      <DataType>[] <ArrayName> = new <DataType>[<ArraySize>];//In java array are in fixed size you need to give arraysize to create it
+```java
+<DataType>[] <ArrayName> = {<value2>,<value1>};//add value inside the {} for predefined Array
+<DataType>[] <ArrayName> = new <DataType>[<ArraySize>];//In java array are in fixed size you need to give arraysize to create it
+```
 
 Nested Array:
 
-      <DataType>[][] <ArrayName> = {{},{}};
+```java
+<DataType>[][] <ArrayName> = {{},{}};
+```
 
 Mutable array:
 
-      List<DataType> <ArrayName> = new ArrayList<>()
-      Methods for ArrayList:
+```java
+List<DataType> <ArrayName> = new ArrayList<>()
+```
+Methods for ArrayList:
       .size()
       .add(<value>) - append the element into the array list
       .get(<Index>) - get the element from the Array list using the element's index
 
 Accessing Syntex:
 
-      <ArrayName>[<Index>]//it returns the element value in index
-      <ArrayName>[<Index>] = <Value>;//ued to change value in a index
+```java
+<ArrayName>[<Index>]//it returns the element value in index
+<ArrayName>[<Index>] = <Value>;//ued to change value in a index
+```
 
 Methods:
 
@@ -45,7 +53,9 @@ Methods:
 ## String
 Declaration Syntex:
 
-      String <StringName> = "<Value>";
+```java
+String <StringName> = "<Value>";
+```
 
 Methods:
 
@@ -61,7 +71,7 @@ Methods:
 
 ## LinkedList
 Declaration Syntex:
-
+```java
       LinkedList<<DataType>> <ListName> = new LinkedList<>();built in linkedlist object
 
       //for custom linkedlist
@@ -75,6 +85,7 @@ Declaration Syntex:
       }
       //Declaration in code as
       Node <ListName> = new Node(<Value>)
+```
 
 Methods:
 
@@ -95,7 +106,9 @@ Methods:
 ##HashMap
 Declaration:
 
-    HashMap<<KeyDataType>,<ValueDataType>> <MapName> = new HashMap<>
+```java
+    HashMap<<KeyDataType>,<ValueDataType>> <MapName> = new HashMap<>;
+```
 
 Methods:
 
@@ -116,7 +129,9 @@ Methods:
 ##Stack
 Declaration Syntex:
 
+```java
     Stack<DataType> <StackName> = new Stack<>();
+```
 
 Methods:
 
@@ -135,10 +150,12 @@ Methods:
 
 Declaration Syntex:
 
-    Queue<DataType> <QueueName> = new LinkedList<>()
-    Queue<DataType> <QueueName> = new ArrayDeque<>()
+```java
+    Queue<DataType> <QueueName> = new LinkedList<>();
+    Queue<DataType> <QueueName> = new ArrayDeque<>();
     //we can declar queue with bothe LinkedList and ArrayDeque but ArrayDeque is best option because of storage
     //ArrayDeque use array internally to store queue(resizable circular array)
+```
 
 Methods:
 
@@ -161,7 +178,9 @@ Methods:
 
 Declaration Syntex:
 
-    TreeSet<<DataType>> <TreeName> = new TreeSet<>()
+```java
+    TreeSet<<DataType>> <TreeName> = new TreeSet<>();
+```
 
 Methods:
 
@@ -178,7 +197,9 @@ Methods:
 
 Declaration Syntex:
 
-    TreeMap<<KeyDataType-Integer>,<ValueDataType>> <TreeName> = TreeMap<>()
+```java
+    TreeMap<<KeyDataType-Integer>,<ValueDataType>> <TreeName> = TreeMap<>();
+```
 
 Methods:
 
@@ -194,6 +215,7 @@ Methods:
 
 Declaration Syntex:
 
+```java
     class TreeNode{
       int val;
       TreeNode left;
@@ -203,3 +225,4 @@ Declaration Syntex:
         this.val = val;
       }
     }
+```
