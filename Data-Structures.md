@@ -103,7 +103,7 @@ Methods:
         .isEmpty() - check empty
         .clear - remove everything
 
-##HashMap
+## HashMap  
 Declaration:
 
 ```java
