@@ -23,11 +23,13 @@ Binary is machine language that only contains two numbers 1s and 0s
 
 Positive Decimal = 5 - 00000101
 
+```
    Step 1 - Invert bits 0 to 1 1 to 0 --> 11111010
    Step 2 - Add 1 --> 11111010
                       00000001
                       --------
                       11111011 = -5
+```
 
 ### How Computer find -ve and +ve
 In binary the Binary has 0s in the front then it is +ve
