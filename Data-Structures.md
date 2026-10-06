@@ -126,7 +126,7 @@ Methods:
     .values() - get all values
     .entrySet() - get Key + value pairs
 
-##Stack
+## Stack
 Declaration Syntex:
 
 ```java
@@ -171,7 +171,7 @@ Methods:
     .contains(<Value>)
     .clear()
 
-##Tree
+## Tree
 
 ### TreeSet
  - It is basically a set store only unique value and sort it in ascending
@@ -192,7 +192,7 @@ Methods:
     .size()
     .isEmpty()
 
-###TreeMap
+### TreeMap
  - Store the value in key-value pair like HashMap it automatically balance it whwn a element is added or remove is simply a rep from Red-Black tree
 
 Declaration Syntex:
@@ -211,7 +211,7 @@ Methods:
     .lastKey()
     .size()
 
-###Binary Tree / BST (Binary Search Tree)
+### Binary Tree / BST (Binary Search Tree)
 
 Declaration Syntex:
 
